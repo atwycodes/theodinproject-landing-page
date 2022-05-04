@@ -1,0 +1,98 @@
+/* * {
+    outline:2px solid red ;
+} */
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+/* HEADER SECTION */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    font-family: Roboto;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 24px;
+    font-weight: 900;
+}
+
+.header-right-links {
+    display: flex;
+    gap: 10px;
+    margin-right: 24px;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+/* INTRODUCTION SECTION */
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.introduction-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    flex-basis: 500px;
+    margin-right: 50px;
+}
+
+.introduction-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.introduction-content {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.introduction-pic {
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-family: Roboto;
+}
+
+
+/* to use font sizing: 48px ; 36px ; 24px ; 18px */
